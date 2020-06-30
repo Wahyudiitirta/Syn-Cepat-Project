@@ -1,0 +1,469 @@
+/* Dekstop Version */
+@media (min-width: 992px) {
+
+/* Navbar */
+    .header .navbar {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.733) , rgba(0, 0, 0, 0.705));
+    }   
+
+    .header .navbar-brand, .nav-link.active {
+        color: white !important;
+        text-shadow: 3px 3px 3px rgba(0,0,0, 10);
+    }
+
+    .header .nav-link {
+        text-transform: uppercase;
+        margin-right: 20px;
+    }
+
+    .header .nav-link:hover::after {
+        content: "";
+        display: block;
+        border-bottom: 3px solid white; 
+        width: 50%;
+        margin:auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+/* Jumbotron */
+    .sliderfirst {
+        /* margin-top: -77px; */
+        height: auto;
+        width: 100%;
+    }
+    .sliderfirst .display-4 {
+        font-size: 50px;
+    }    
+    .sliderfirst .lead {
+       font-size: 18px;
+    }
+    .sliderfirst .visual {
+        width: 100%;
+        margin-top: 360px;
+        height: auto;
+    }
+
+ /* Lacak ongkir */
+    .Lacak-ongkir {
+        margin-top: -400px;
+    }
+    .Lacak-ongkir .lacak {
+    margin-top: 150px;
+    margin-left: 230px;
+    }
+
+/* Our Service  */
+    .ourservice .our {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: auto;
+    }
+/* yes dan reg */
+.yesdanreg .btn {
+    width: 210px;
+    height: 44px;
+    left: 231px;
+    top: 2165px;
+    background: #F0B316;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.yesdanreg .btn1 {
+    width: 210px;
+    height: 44px;
+    left: 787px;
+    top: 2143px;
+    background: #120DF5;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.yesdanreg .yes {
+    color: white;
+    margin-left:0px;
+    margin-top: 42px;
+    width: 558px;
+    height: 520px;
+    left: 152px;
+    top: 1614px;
+    background: #0F0BDE;
+    border: 1px solid #120DF5;
+    box-sizing: border-box;
+    border-radius: 50px 0px 0px 50px;
+    padding-left: 40px;
+    padding-top: 250px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    color: #FFFCFC;
+    }
+.yesdanreg .reg {
+    margin-left: 100px;
+    margin-top: 142px;
+    width: 558px;
+    height: 520px;
+    left: 730px;
+    top: 1716px;
+    background: #F0B316;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 50px 50px 0px;
+    padding-top: 150px;
+    padding-left: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    color: black
+}
+/* Event */
+
+.event .nav-link {
+    background-color: blue;
+    color: white;
+}
+.event .nav-tabs .nav-link.active {
+    color:black !important;
+    text-shadow: 0px 1px 1px rgba(0,0,0, 10);
+}
+
+.event .kurir {
+        margin-top: 50px;
+    }
+
+/* ourpartner */
+.partner .list-group {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+/* endslider */
+.Endslider {
+    margin-top: 100px;
+    background-size: cover;
+    height: 1000px;
+    padding-top: 50px;
+}
+ .Endslider .text1 {
+     color: white;
+    font-size: 50px;
+    line-height: 67px;
+    padding-top: 20px;
+ }
+ .Endslider .text3 {
+     padding-top: 20px;
+ }
+ .Endslider .visualdua {
+     margin-top: -50px;
+ }
+.Endslider .col-lg-7 {
+    padding-top: 100px;
+}
+.Endslider .col-lg-2 {
+    margin-top: 150px;
+    padding-top: 25px;
+    height: 220px;
+    margin-left: 20px;
+    width: 193px;
+}
+/* Produklayanan */
+/* produk */
+.produk .container {
+    justify-content: center;
+    margin-top: 50px;
+}
+/* .Jumbotronproduk .visual {
+    height: auto;
+    margin-top: 450px;
+} */
+.produk .col-lg-6 {
+    justify-content: center;
+    margin-left: 20px;
+}
+.produk {
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.produkkami {
+    height: 200px;
+   }
+.partnerkami {
+    background-color: rgb(252, 201, 90);
+    width: 100%;
+    height: 400px;
+    margin-top: 25px;
+}
+.partnerkami .list-group {
+    justify-content: center;
+    text-align: center;
+}
+
+/* ongkir page */
+.ongkoskirim .palembang {
+    margin-top: 80px;
+}
+.ongkoskirim  {
+    margin-left: 200px;
+    text-align: center  ;
+    margin-top: -100px;
+    justify-content: center;
+}
+.ongkoskirim .form-group .form-control {
+    justify-content: center;
+    width: 500px;
+    margin-left: 200px;
+}
+.ongkoskirim .btn .btn1 {
+    margin-top: 20px;
+    width: 100%;
+}
+.lacakpaket {
+    justify-content: center;
+    width: 500px;
+    height: 200px;
+    margin-left: 480px;
+}
+/* kontak page */
+.kontak {
+    height: 250px;
+}
+.kontakkami {
+    height: 560px;
+    margin-bottom: -100px;
+}
+.kontakkami .list-group {
+    justify-content: center;
+}
+/* hubungikami page */
+.contact .list-group{
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+} 
+.hubungi .container {
+    height: 400px;
+    padding-top: 20px;
+}
+
+/* halaman rating */
+/* header rating */
+.headerrating .navbar {
+    background: rgba(248, 178, 0, 0.719);
+}   
+.headerrating, .navbar-brand, .nav-link.active1 {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,2);
+}
+.headerrating .nav-link {
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+.headerrating .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid rgb(3, 3, 3); 
+    width: 50%;
+    margin:auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+/* endslider rating */
+.endsliderrating {
+    width: 100%;
+    height: auto;
+}
+
+.endsliderrating .visualdua {
+    height: auto;
+    margin-top: -50px;
+    width: 100%;
+}
+
+/* halaman yes */
+/* header yes */
+.headeryes .navbar {
+    background: rgba(248, 178, 0, 0.719);
+}   
+.headeryes, .navbar-brand, .nav-link.active1 {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,2);
+}
+.headeryes .nav-link {
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+.headeryes .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid rgb(3, 3, 3); 
+    width: 50%;
+    margin:auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+/* conten */
+.contenyes .btn1 {
+    width: 100px;
+    height: 40px;
+    left: 1027px;
+    top: 580px;
+    background: #18F021;
+    border-radius: 30px;
+}
+.contenyes .btn {
+    margin-top: -7px;
+    margin-left: 50px;
+    width: 100px;
+    height: 40px;
+    left: 1027px;
+    top: 580px;
+    color: black;
+    background: white;
+    border-radius: 30px;
+}
+
+/* review */
+.endslideryes .visualdua {
+    height: auto;
+    margin-top: -50px;
+    width: 100%;
+}
+.endslideryes {
+    margin-top: 100px;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    padding-top: 50px;
+}
+.endslideryes .text1 {
+    color: white;
+    font-size: 50px;
+    line-height: 67px;
+}
+.endslideryes .col-lg-7 {
+    padding-top: 100px;
+}
+.endslideryes .col-lg-2 {
+    margin-top: 150px;
+    padding-top: 25px;
+    height: 220px;
+    margin-left: 20px;
+    width: 193px;
+}
+
+/* halaman reg */
+/* header reg */
+.headerreg .navbar {
+    background: rgba(248, 178, 0, 0.719);
+}   
+.headerreg, .navbar-brand, .nav-link.active1 {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,2);
+}
+.headerreg .nav-link {
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+.headerreg .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid rgb(3, 3, 3); 
+    width: 50%;
+    margin:auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+/* conten */
+.contenreg .btn1 {
+    width: 100px;
+    height: 40px;
+    left: 1027px;
+    top: 580px;
+    background: #18F021;
+    border-radius: 30px;
+}
+.contenreg .btn {
+    margin-top: -7px;
+    margin-left: 50px;
+    width: 100px;
+    height: 40px;
+    left: 1027px;
+    top: 580px;
+    color: black;
+    background: white;
+    border-radius: 30px;
+}
+
+/* review */
+.endsliderreg .visualdua {
+    height: auto;
+    margin-top: -50px;
+    width: 100%;
+}
+.endsliderreg {
+    margin-top: 100px;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    padding-top: 30px;
+}
+.endsliderreg .text1 {
+    color: white;
+    font-size: 50px;
+    line-height: 67px;
+}
+.endsliderreg .col-lg-7 {
+    padding-top: 100px;
+}
+.endsliderreg .col-lg-2 {
+    margin-top: 150px;
+    padding-top: 25px;
+    height: 220px;
+    margin-left: 20px;
+    width: 193px;
+}
+
+/* halaman infobiaya */
+/* header infobiaya */
+.headerinfobiaya .navbar {
+    background: rgba(248, 178, 0, 0.719);
+}   
+.headerinfobiaya, .navbar-brand, .nav-link.active1 {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,2);
+}
+.headerinfobiaya .nav-link {
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+.headerinfobiaya .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid rgb(3, 3, 3); 
+    width: 50%;
+    margin:auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+/* endslider rating */
+.endsliderinfobiaya {
+    width: 100%;
+    height: auto;
+}
+
+.endsliderinfobiaya .visualdua {
+    height: auto;
+    margin-top: -50px;
+    width: 100%;
+}
+
+
+}
